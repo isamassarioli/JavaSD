@@ -1,0 +1,32 @@
+[AGENTE 9001] Agente no ar. Carga inicial = 1
+[AGENTE 9001] Fase 1 <- CFP tarefa 1 (FATORIAL, carga=12)
+[AGENTE 9001] Fase 2 -> PROPOSTA tarefa 1 custo=12 (carga_atual=1)
+[AGENTE 9001] Fase 3 <- ADJUDICACAO tarefa 1 (venci o leilao)
+[AGENTE 9001] Fase 4 -> RESULTADO tarefa 1 tempo=1ms
+[AGENTE 9001] Carga simulada incrementada para 2
+[AGENTE 9001] Fase 1 <- CFP tarefa 2 (SOMA_PRIMOS, carga=2000)
+[AGENTE 9001] Fase 2 -> PROPOSTA tarefa 2 custo=4000 (carga_atual=2)
+[AGENTE 9001] Fase 3 <- ADJUDICACAO tarefa 2 (venci o leilao)
+[AGENTE 9001] Fase 4 -> RESULTADO tarefa 2 tempo=1ms
+[AGENTE 9001] Carga simulada incrementada para 3
+[AGENTE 9001] Fase 1 <- CFP tarefa 3 (FATORIAL, carga=18)
+[AGENTE 9001] Fase 2 -> PROPOSTA tarefa 3 custo=54 (carga_atual=3)
+[AGENTE 9001] Fase 3 <- ADJUDICACAO tarefa 3 (venci o leilao)
+[AGENTE 9001] Fase 4 -> RESULTADO tarefa 3 tempo=2ms
+[AGENTE 9001] Carga simulada incrementada para 4
+[AGENTE 9001] Fase 1 <- CFP tarefa 4 (SOMA_PRIMOS, carga=5000)
+[AGENTE 9001] Fase 2 -> PROPOSTA tarefa 4 custo=20000 (carga_atual=4)
+[AGENTE 9001] Fase 3 <- REJEICAO na tarefa 4 (proposta nao escolhida)
+[AGENTE 9001] Fase 1 <- CFP tarefa 5 (FATORIAL, carga=25)
+[AGENTE 9001] Fase 2 -> PROPOSTA tarefa 5 custo=100 (carga_atual=4)
+[AGENTE 9001] Fase 3 <- ADJUDICACAO tarefa 5 (venci o leilao)
+[AGENTE 9001] Fase 4 -> RESULTADO tarefa 5 tempo=1ms
+[AGENTE 9001] Carga simulada incrementada para 5
+[AGENTE 9001] Fase 1 <- CFP tarefa 6 (SOMA_PRIMOS, carga=8000)
+[AGENTE 9001] Fase 2 -> PROPOSTA tarefa 6 custo=40000 (carga_atual=5)
+[AGENTE 9001] Fase 3 <- REJEICAO na tarefa 6 (proposta nao escolhida)
+[AGENTE 9001] Fase 1 <- CFP tarefa 7 (FATORIAL, carga=30)
+[AGENTE 9001] Fase 2 -> PROPOSTA tarefa 7 custo=150 (carga_atual=5)
+[AGENTE 9001] Fase 3 <- ADJUDICACAO tarefa 7 (venci o leilao)
+[AGENTE 9001] Fase 4 -> RESULTADO tarefa 7 tempo=0ms
+[AGENTE 9001] Carga simulada incrementada para 6

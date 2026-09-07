@@ -1,0 +1,95 @@
+[GERENTE] Agentes conhecidos: 9001, 9002, 9003
+[GERENTE] Total de tarefas a distribuir: 7
+[GERENTE] =================================================
+[GERENTE] Nova rodada -> Tarefa#1 [FATORIAL, carga=12]
+[GERENTE] Fase 1 -> CFP enviado a 3 agente(s): CFP;1;FATORIAL;12
+[GERENTE] Fase 2 <- PROPOSTA do agente 9001 custo=12
+[GERENTE] Fase 2 <- PROPOSTA do agente 9003 custo=60
+[GERENTE] Fase 2 <- PROPOSTA do agente 9002 custo=36
+[GERENTE] Fase 2 -> timeout de propostas atingido.
+[GERENTE] Fase 3 -> vencedor: agente 9001 com custo 12
+[GERENTE] Fase 3 -> ADJUDICACAO enviada ao agente 9001
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9003
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9002
+[GERENTE] Fase 4 <- RESULTADO da tarefa 1 pelo agente 9001 em 1ms
+[GERENTE] Fase 4 -> valor calculado: 479001600
+[GERENTE] =================================================
+[GERENTE] Nova rodada -> Tarefa#2 [SOMA_PRIMOS, carga=2000]
+[GERENTE] Fase 1 -> CFP enviado a 3 agente(s): CFP;2;SOMA_PRIMOS;2000
+[GERENTE] Fase 2 <- PROPOSTA do agente 9001 custo=4000
+[GERENTE] Fase 2 <- PROPOSTA do agente 9002 custo=6000
+[GERENTE] Fase 2 <- PROPOSTA do agente 9003 custo=10000
+[GERENTE] Fase 2 -> timeout de propostas atingido.
+[GERENTE] Fase 3 -> vencedor: agente 9001 com custo 4000
+[GERENTE] Fase 3 -> ADJUDICACAO enviada ao agente 9001
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9002
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9003
+[GERENTE] Fase 4 <- RESULTADO da tarefa 2 pelo agente 9001 em 1ms
+[GERENTE] Fase 4 -> valor calculado: 16274627
+[GERENTE] =================================================
+[GERENTE] Nova rodada -> Tarefa#3 [FATORIAL, carga=18]
+[GERENTE] Fase 1 -> CFP enviado a 3 agente(s): CFP;3;FATORIAL;18
+[GERENTE] Fase 2 <- PROPOSTA do agente 9002 custo=54
+[GERENTE] Fase 2 <- PROPOSTA do agente 9003 custo=90
+[GERENTE] Fase 2 <- PROPOSTA do agente 9001 custo=54
+[GERENTE] Fase 2 -> timeout de propostas atingido.
+[GERENTE] Fase 3 -> vencedor: agente 9001 com custo 54
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9002
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9003
+[GERENTE] Fase 3 -> ADJUDICACAO enviada ao agente 9001
+[GERENTE] Fase 4 <- RESULTADO da tarefa 3 pelo agente 9001 em 2ms
+[GERENTE] Fase 4 -> valor calculado: 6402373705728000
+[GERENTE] =================================================
+[GERENTE] Nova rodada -> Tarefa#4 [SOMA_PRIMOS, carga=5000]
+[GERENTE] Fase 1 -> CFP enviado a 3 agente(s): CFP;4;SOMA_PRIMOS;5000
+[GERENTE] Fase 2 <- PROPOSTA do agente 9001 custo=20000
+[GERENTE] Fase 2 <- PROPOSTA do agente 9002 custo=15000
+[GERENTE] Fase 2 <- PROPOSTA do agente 9003 custo=25000
+[GERENTE] Fase 2 -> timeout de propostas atingido.
+[GERENTE] Fase 3 -> vencedor: agente 9002 com custo 15000
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9001
+[GERENTE] Fase 3 -> ADJUDICACAO enviada ao agente 9002
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9003
+[GERENTE] Fase 4 <- RESULTADO da tarefa 4 pelo agente 9002 em 4ms
+[GERENTE] Fase 4 -> valor calculado: 114455259
+[GERENTE] =================================================
+[GERENTE] Nova rodada -> Tarefa#5 [FATORIAL, carga=25]
+[GERENTE] Fase 1 -> CFP enviado a 3 agente(s): CFP;5;FATORIAL;25
+[GERENTE] Fase 2 <- PROPOSTA do agente 9001 custo=100
+[GERENTE] Fase 2 <- PROPOSTA do agente 9003 custo=125
+[GERENTE] Fase 2 <- PROPOSTA do agente 9002 custo=100
+[GERENTE] Fase 2 -> timeout de propostas atingido.
+[GERENTE] Fase 3 -> vencedor: agente 9001 com custo 100
+[GERENTE] Fase 3 -> ADJUDICACAO enviada ao agente 9001
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9003
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9002
+[GERENTE] Fase 4 <- RESULTADO da tarefa 5 pelo agente 9001 em 1ms
+[GERENTE] Fase 4 -> valor calculado: 15511210043330985984000000
+[GERENTE] =================================================
+[GERENTE] Nova rodada -> Tarefa#6 [SOMA_PRIMOS, carga=8000]
+[GERENTE] Fase 1 -> CFP enviado a 3 agente(s): CFP;6;SOMA_PRIMOS;8000
+[GERENTE] Fase 2 <- PROPOSTA do agente 9001 custo=40000
+[GERENTE] Fase 2 <- PROPOSTA do agente 9002 custo=32000
+[GERENTE] Fase 2 <- PROPOSTA do agente 9003 custo=40000
+[GERENTE] Fase 2 -> timeout de propostas atingido.
+[GERENTE] Fase 3 -> vencedor: agente 9002 com custo 32000
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9001
+[GERENTE] Fase 3 -> ADJUDICACAO enviada ao agente 9002
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9003
+[GERENTE] Fase 4 <- RESULTADO da tarefa 6 pelo agente 9002 em 4ms
+[GERENTE] Fase 4 -> valor calculado: 309677341
+[GERENTE] =================================================
+[GERENTE] Nova rodada -> Tarefa#7 [FATORIAL, carga=30]
+[GERENTE] Fase 1 -> CFP enviado a 3 agente(s): CFP;7;FATORIAL;30
+[GERENTE] Fase 2 <- PROPOSTA do agente 9002 custo=150
+[GERENTE] Fase 2 <- PROPOSTA do agente 9001 custo=150
+[GERENTE] Fase 2 <- PROPOSTA do agente 9003 custo=150
+[GERENTE] Fase 2 -> timeout de propostas atingido.
+[GERENTE] Fase 3 -> vencedor: agente 9001 com custo 150
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9002
+[GERENTE] Fase 3 -> ADJUDICACAO enviada ao agente 9001
+[GERENTE] Fase 3 -> REJEICAO enviada ao agente 9003
+[GERENTE] Fase 4 <- RESULTADO da tarefa 7 pelo agente 9001 em 0ms
+[GERENTE] Fase 4 -> valor calculado: 265252859812191058636308480000000
+[GERENTE] =================================================
+[GERENTE] Todas as tarefas foram processadas. Encerrando o Gerente.
