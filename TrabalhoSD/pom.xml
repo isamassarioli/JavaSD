@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>br.ifes.sin.sd</groupId>
+    <artifactId>recomendacao-musical</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>Sistema Distribuido de Recomendacao Musical</name>
+    <description>
+        Trabalho de Sistemas Distribuidos (SIN - Ifes Colatina): aplicacao
+        cliente/servidor em Java, TCP/IP, servidor concorrente e recomendacao
+        de artistas por distancia euclidiana.
+    </description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>17</maven.compiler.release>
+        <exec.mainClass>br.ifes.sin.sd.recomendacao.App</exec.mainClass>
+    </properties>
+
+    <!--
+        O projeto NAO possui dependencias externas: o JSON e implementado na
+        classe br.ifes.sin.sd.recomendacao.json.Json. Assim ele compila e roda
+        apenas com um JDK, sem necessidade de baixar bibliotecas.
+
+        Maven e opcional. Sem Maven instalado, use os scripts:
+            compilar.bat / servidor.bat / cliente.bat / testar.bat   (Windows)
+            ./build.sh compilar|servidor|cliente|teste                (Linux/macOS)
+    -->
+
+    <build>
+        <finalName>recomendacao-musical</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.5.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <transformers>
+                                <transformer
+                                    implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>br.ifes.sin.sd.recomendacao.App</mainClass>
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
